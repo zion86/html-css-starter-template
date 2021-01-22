@@ -1,0 +1,15 @@
+/* STYLES CSS */
+
+body {
+  font-family: var(--f-main-font), sans-serif;
+  color: var(--c-black-v1);
+  background-color: var(--c-white-v1);
+}
+
+.container {
+  max-width: var(--w-container);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+}

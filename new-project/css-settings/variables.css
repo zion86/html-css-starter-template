@@ -1,0 +1,20 @@
+/* CSS VARIABLES */
+
+:root {
+  /* width */
+  --w-container: 1248px;
+  
+  /* gap size */
+  --gap: 24px;
+  --gap-min: -24px;
+
+  /* fonts */
+  --f-main-font: "Roboto Regular";
+  
+  /* colors */
+  --c-white-v1: #FDFDFD;
+  --c-black-v1: #434343;
+
+  /* border radius */
+  --br: 4px;
+}
