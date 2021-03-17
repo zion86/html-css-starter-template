@@ -1,0 +1,7 @@
+.grid-list {
+  
+}
+
+.grid-list__item:not(:last-child) {
+  margin-right: 30px;
+}

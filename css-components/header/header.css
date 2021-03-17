@@ -1,0 +1,9 @@
+.header {
+	
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
