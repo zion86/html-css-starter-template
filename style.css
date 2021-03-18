@@ -3,9 +3,14 @@
 @import "css-settings/reset-css.css";
 @import "css-settings/variables.css";
 @import "css-settings/sticky-footer.css";
+
 /* @import "css-settings/grid.css"; */
 /* @import "css-settings/font-size.css"; */
 /* @import "css-settings/pixel-perfect.css"; */
+
+/* CSS layout */
+@import "css-layout/grid-list/grid-list.css";
+@import "css-layout/grid-cards/grid-cards.css";
 
 /* CSS components */
 @import "css-components/container/container.css";
@@ -17,4 +22,3 @@
 @import "css-components/footer/footer.css";
 @import "css-components/btn/btn.css";
 @import "css-components/social/social.css";
-@import "css-components/grid-list/grid-list.css";
