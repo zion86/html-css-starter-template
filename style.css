@@ -22,3 +22,7 @@
 @import "css-components/footer/footer.css";
 @import "css-components/btn/btn.css";
 @import "css-components/social/social.css";
+
+
+/* OPTIONAL for visual styling */
+@import "css-settings/outlines.css";

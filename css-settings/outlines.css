@@ -1,0 +1,44 @@
+/* OPTIONAL */
+
+.header,
+.main-content,
+.footer {
+  padding: 10px 0;
+  position: relative;
+}
+
+.header {
+  background-color: hsla(100, 100%, 70%, 0.8);
+}
+
+.main-content {
+  background-color: hsla(180, 100%, 70%, 0.8);
+}
+
+.footer {
+  background-color: hsla(60, 100%, 70%, 0.8);
+}
+
+.header::before,
+.main-content::before,
+.footer::before {
+  padding: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  color: grey;
+  background-color: hsl(100, 100%, 90%, 0.6);
+}
+
+.header::before {
+  content: 'HEADER';
+}
+
+.footer::before {
+  content: 'FOOTER';
+}
+
+.main-content::before {
+  content: "MAIN-CONTENT";
+}
