@@ -15,6 +15,10 @@
   background-color: hsla(180, 100%, 70%, 0.8);
 }
 
+.card {
+  background-color: hsla(230, 70%, 70%, 0.8);
+}
+
 .footer {
   background-color: hsla(60, 100%, 70%, 0.8);
 }
@@ -41,4 +45,19 @@
 
 .main-content::before {
   content: "MAIN-CONTENT";
+}
+
+.card {
+  position: relative;
+}
+
+.card::before {
+  content: "CARD";
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+  color: grey;
+  background-color: hsl(100, 100%, 90%, 0.6);
 }
