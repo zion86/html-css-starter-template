@@ -1,6 +1,7 @@
 /* OPTIONAL */
 
 .header,
+.logo-link,
 .main-content,
 .footer {
   padding: 10px 0;
@@ -24,6 +25,7 @@
 }
 
 .header::before,
+.logo-link::before,
 .main-content::before,
 .footer::before {
   padding: 5px;
@@ -37,6 +39,10 @@
 
 .header::before {
   content: 'HEADER';
+}
+
+.logo-link::before {
+  content: 'LOGO';
 }
 
 .footer::before {
