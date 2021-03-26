@@ -1,0 +1,30 @@
+/* CSS settings */
+@import "css-settings/customs-fonts.css";
+@import "css-settings/reset-css.css";
+@import "css-settings/variables.css";
+@import "css-settings/sticky-footer.css";
+
+/* @import "css-settings/grid.css"; */
+/* @import "css-settings/font-size.css"; */
+/* @import "css-settings/pixel-perfect.css"; */
+
+/* CSS layout */
+@import "css-layout/grid-list/grid-list.css";
+@import "css-layout/grid-cards/grid-cards.css";
+
+/* CSS components */
+@import "css-components/container/container.css";
+@import "css-components/page/page.css";
+@import "css-components/main-content/main-content.css";
+@import "css-components/nav/nav.css";
+@import "css-components/header/header.css";
+@import "css-components/title/title.css";
+@import "css-components/footer/footer.css";
+@import "css-components/btn/btn.css";
+@import "css-components/social/social.css";
+@import "css-components/card/card.css";
+@import "css-components/logo-link/logo-link.css";
+
+
+/* OPTIONAL for visual styling */
+@import "css-settings/outlines.css";
