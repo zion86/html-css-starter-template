@@ -1,13 +1,10 @@
-:root {
-  --gap: 20px;
-  --gap-negative: -20px;
-}
-
 .grid-cards {
   overflow: hidden;
 }
 
 .grid-cards__list {
+  --gap: 10px;
+  --gap-negative: -10px;
 
   margin-right: var(--gap-negative);
   margin-bottom: var(--gap-negative);
@@ -22,6 +19,8 @@
 /* MOBILE FIRST */
 .grid-cards__cell {
   --columns: 1;
+  --gap: 10px;
+  --gap-negative: -10px;
 
   margin-right: var(--gap);
   margin-bottom: var(--gap);
