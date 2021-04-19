@@ -1,0 +1,75 @@
+/* RESET CSS */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+input, button, select, textarea {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* STYLES */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.accordion-list {
+
+}
+
+.accordion-list__item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.accordion-list__btn {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s background-color;
+}
+
+.accordion-list__btn:hover,
+.accordion-list__btn--active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.accordion-list__content {
+  overflow: hidden;
+  height: 0;
+  transition: 0.4s height ease-in-out;
+}
+
+.accordion-list__content--active {
+}
+
+.accordion-list__body {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
