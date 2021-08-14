@@ -1,10 +1,7 @@
 /* OPTIONAL */
 
-.header,
-.logo-link,
-.main-content,
-.footer {
-  padding: 10px 0;
+.header, .logo-link, .main-content, .footer {
+  /* padding: 10px 0; */
   position: relative;
 }
 
@@ -24,10 +21,7 @@
   background-color: hsla(60, 100%, 70%, 0.8);
 }
 
-.header::before,
-.logo-link::before,
-.main-content::before,
-.footer::before {
+.header::before, .logo-link::before, .main-content::before, .footer::before {
   padding: 5px;
   position: absolute;
   left: 0;

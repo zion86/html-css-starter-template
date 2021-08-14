@@ -2,7 +2,6 @@
 
 html {
   --min-width: 1440px;
-
   min-width: var(--min-width);
   background: url(../img/) 50% 0 no-repeat;
 }

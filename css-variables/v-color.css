@@ -1,0 +1,31 @@
+:root {
+  --c-white-1: #FDFDFD;
+	--c-red-1: red;
+  --c-grey-1: #434343;
+
+
+  --c-page-text: var(--c-grey-1);
+  --c-page-bg: var(--c-white-1);
+  --c-page-bg-secondary: var(--c-red-1);
+	
+  --c-link: ;
+  --c-link--hover: ;
+	
+	--c-border: ;
+
+  --c-btn-bg: ;
+  --c-btn-text: ;
+  --c-btn--hover: ;
+
+
+  /* 
+    --c-primary: ;
+    --c-secondary: ;
+    --c-success: ;
+    --c-info: ;
+    --c-warning: ;
+    --c-danger: ;
+    --c-light: ;
+    --c-dark: ;
+  */
+}

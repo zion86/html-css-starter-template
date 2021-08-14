@@ -1,6 +1,7 @@
 /* CSS VARIABLES */
-@import "v-container/v-container.css";
-@import "v-font/v-font.css";
-@import "v-color/v-color.css";
-@import "v-gap/v-gap.css";
-@import "v-border-radius/v-border-radius.css";
+
+@import "v-container.css";
+@import "v-font.css";
+@import "v-color.css";
+@import "v-gap.css";
+@import "v-border-radius.css";

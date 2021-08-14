@@ -6,31 +6,28 @@ body {
 }
 
 body::before {
-  --columns: 3;
-
+  --columns: 4;
   content: "";
   position: absolute;
   top: 0;
   right: var(--gap);
   bottom: 0;
   left: 0;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0 var(--gap),
-    rgba(241, 130, 141, 0.2) var(--gap) calc(100% / var(--columns))
-  );
+  background-image: repeating-linear-gradient( to right, transparent 0 var(--gap), rgba(241, 130, 141, 0.2) var(--gap) calc(100% / var(--columns)));
   z-index: -1;
 }
 
-@media (min-width: 536px) {
-  body::before {
-    --columns: 6;
+/*
+  @media (min-width: 536px) {
+    body::before {
+      --columns: 6;
+    }
   }
-}
+*/
 
 @media (min-width: 768px) {
   body::before {
-    --columns: 9;
+    --columns: 8;
   }
 }
 
