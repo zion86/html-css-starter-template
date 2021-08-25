@@ -1,0 +1,6 @@
+/* CSS VARIABLES */
+@import "vars/01-v-fonts.css";
+@import "vars/02-v-colors.css";
+@import "vars/03-v-container.css";
+@import "vars/04-v-gap.css";
+@import "vars/05-v-border-radius.css";
