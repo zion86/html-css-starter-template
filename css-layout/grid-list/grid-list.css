@@ -11,8 +11,8 @@
 }
 
 @media (min-width: 600px) {
-	.grid-list__item:not(:last-child) {
+  .grid-list__item:not(:last-child) {
     margin-right: var(--gap);
     margin-bottom: 0;
-	}
+  }
 }

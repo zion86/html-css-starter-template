@@ -1,5 +1,5 @@
 .footer {
-
+  
 }
 
 .footer__inner {
@@ -10,8 +10,8 @@
 }
 
 @media (min-width: 600px) {
-	.footer__inner {
-		flex-direction: row;
+  .footer__inner {
+    flex-direction: row;
     justify-content: flex-end;
-	}
+  }
 }

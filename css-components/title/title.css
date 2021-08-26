@@ -1,24 +1,24 @@
 .title {
-	font-family: "Montserrat";
-	line-height: 1.5;
+  font-family: var(--f-page-text-secondary);
+  line-height: 1.5;
 }
 
 .title--xl {
-	font-size: 36px;
+  font-size: 36px;
 }
 
 .title--lg {
-	font-size: 32px;
+  font-size: 32px;
 }
 
 .title--md {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .title--s {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 .title--xs {
-	font-size: 20px;
+  font-size: 20px;
 }

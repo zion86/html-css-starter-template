@@ -1,14 +1,15 @@
 :root {
   --c-white-primary: #FDFDFD;
   --c-red-primary: red;
+  --c-red-secondary: tomato;
   --c-grey-primary: #434343;
 
-  --c-page-text: var(--c-grey-basic);
+  --c-page-text-primary: var(--c-grey-basic);
   --c-page-bg-primary: var(--c-white-basic);
   --c-page-bg-secondary: var(--c-red-basic);
 
   --c-link: ;
-  --c-link-bg: ;
+  --c-link-bg: var(--c-red-secondary);
   --c-link--hover: ;
 
   --c-border: ;

@@ -1,6 +1,6 @@
 /* CSS settings */
 @import "css-settings/01-variables.css";
-@import "css-settings/02-customs-fonts.css";
+@import "css-settings/02-custom-fonts.css";
 @import "css-settings/03-reset-css.css";
 @import "css-settings/04-sticky-footer.css";
 /* @import "css-settings/05-grid.css"; */
