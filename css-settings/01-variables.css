@@ -4,3 +4,14 @@
 @import "vars/03-v-container.css";
 @import "vars/04-v-gap.css";
 @import "vars/05-v-border-radius.css";
+
+/*
+  CSS variables naming
+
+  --c-: color;
+  --f-: font-name;
+  --fsz-: font-size;
+  --w-: width;
+  --gap-: gap;
+  --br-: border-radius;
+*/

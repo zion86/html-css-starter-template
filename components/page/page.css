@@ -1,0 +1,9 @@
+.page {
+  font-family: var(--f-page-text-primary, sans-serif);
+  font-size: var(--f-page-text-size);
+  font-weight: var(--f-page-text-weight);
+  line-height: var(--f-page-text-line-height);
+
+  color: var(--c-page-text-primary);
+  background-color: var(--c-page-bg-primary);
+}

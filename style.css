@@ -9,18 +9,18 @@
 /* @import "css-settings/08-outlines.css"; */
 
 /* CSS components */
-@import "css-components/container/container.css";
-@import "css-components/page/page.css";
-@import "css-components/main-content/main-content.css";
-@import "css-components/nav/nav.css";
-@import "css-components/burger-menu/burger-menu.css";
-@import "css-components/header/header.css";
-@import "css-components/title/title.css";
-@import "css-components/footer/footer.css";
-@import "css-components/btn/btn.css";
-@import "css-components/social/social.css";
-@import "css-components/card/card.css";
-@import "css-components/logo-link/logo-link.css";
+@import "components/container/container.css";
+@import "components/page/page.css";
+@import "components/main-content/main-content.css";
+@import "components/nav/nav.css";
+@import "components/burger-menu/burger-menu.css";
+@import "components/header/header.css";
+@import "components/title/title.css";
+@import "components/footer/footer.css";
+@import "components/btn/btn.css";
+@import "components/social/social.css";
+@import "components/card/card.css";
+@import "components/logo-link/logo-link.css";
 
 /* CSS layout */
 @import "css-layout/grid-list/grid-list.css";

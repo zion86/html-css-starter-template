@@ -1,24 +1,34 @@
 .title {
-  font-family: var(--f-page-text-secondary);
+  /* font-family: var(--f-page-text-primary); */
   line-height: 1.5;
 }
 
-.title--xl {
-  font-size: 36px;
+/* H1 */
+.title--xxl {
+  font-size: 20px;
 }
 
+/* H2 */
+.title--xl {
+  font-size: 34px;
+}
+
+/* H3 */
 .title--lg {
   font-size: 32px;
 }
 
+/* H4 */
 .title--md {
   font-size: 28px;
 }
 
+/* H5 */
 .title--s {
   font-size: 24px;
 }
 
+/* H6 */
 .title--xs {
   font-size: 20px;
 }
