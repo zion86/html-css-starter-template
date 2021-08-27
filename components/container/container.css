@@ -5,3 +5,20 @@
   padding-left: var(--gap);
   padding-right: var(--gap);
 }
+
+.container--small {
+  max-width: var(--w-container--small);
+}
+
+.container__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .container__inner {
+    flex-direction: row;
+  }
+}

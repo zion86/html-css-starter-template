@@ -1,4 +1,4 @@
-/* CSS settings */
+/* CSS SETTINGS */
 @import "css-settings/01-variables.css";
 @import "css-settings/02-custom-fonts.css";
 @import "css-settings/03-reset-css.css";
@@ -8,7 +8,7 @@
 /* @import "css-settings/07-font-size.css"; */
 /* @import "css-settings/08-outlines.css"; */
 
-/* CSS components */
+/* COMPONENTS */
 @import "components/container/container.css";
 @import "components/page/page.css";
 @import "components/main-content/main-content.css";
@@ -22,6 +22,6 @@
 @import "components/card/card.css";
 @import "components/logo-link/logo-link.css";
 
-/* CSS layout */
+/* CSS LAYOUT */
 @import "css-layout/grid-list/grid-list.css";
 @import "css-layout/grid-cards/grid-cards.css";

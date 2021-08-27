@@ -1,5 +1,5 @@
 .btn {
-  
+  border-radius: var(--br-btn);
 }
 
 .btn > * + * {

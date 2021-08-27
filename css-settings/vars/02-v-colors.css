@@ -8,20 +8,23 @@
   --c-page-bg-primary: var(--c-white-basic);
   --c-page-bg-secondary: var(--c-red-basic);
 
-  --c-link: ;
+  --c-title: var(--c-red-primary);
+
+  --c-link: var();
   --c-link-bg: var(--c-red-secondary);
-  --c-link--hover: ;
+  --c-link--hover: var();
 
-  --c-border: ;
+  --c-border: var(--c-grey-primary);
 
-  --c-btn-bg: ;
-  --c-btn-text: ;
-  --c-btn--hover: ;
+  --c-btn-bg: var();
+  --c-btn-text: var();
+  --c-btn--hover: var();
 
 
   /* 
     --c-primary: ;
     --c-secondary: ;
+    --c-tertiary: ;
     --c-success: ;
     --c-info: ;
     --c-warning: ;

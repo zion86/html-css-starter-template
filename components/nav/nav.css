@@ -13,10 +13,10 @@
 }
 
 .nav__link {
-  padding: 10px 20px;
+  padding: var(--sp-nav-link);
   display: inline-flex;
   background-color: var(--c-link-bg);
-  border-radius: var(--br-main);
+  border-radius: var(--br-link);
 }
 
 @media (min-width: 600px) {

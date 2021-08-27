@@ -1,5 +1,10 @@
 .card {
-  /* padding: 16px; */
+  --card-text: "";
+  --card-title-size: 24px;
+  --card-text-size: 16px;
+  --card-spacing: 16px;
+
+  /* padding: var(--card-spacing); */
 
   display: inline-flex;
   flex-direction: column;
@@ -7,15 +12,15 @@
 }
 
 .card > * + * {
-  margin-top: 16px;
+  margin-top: var(--card-spacing);
 }
 
 .card__title {
-  font-size: 24px;
+  font-size: var(--card-title-size);
 }
 
 .card__text {
-  font-size: 18px;
+  font-size: var(--card-text-size);
 }
 
 .card__link {

@@ -72,5 +72,5 @@ th {
 table,
 th,
 td {
-  border: 1px solid var(--c-page-text);
+  border: 1px solid var(--c-border);
 }

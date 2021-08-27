@@ -1,6 +1,7 @@
 .title {
-  /* font-family: var(--f-page-text-primary); */
-  line-height: 1.5;
+  font-family: var(--f-page-text-secondary);
+  line-height: var(--f-title-line-height);
+  color: var(--c-title);
 }
 
 /* H1 */
