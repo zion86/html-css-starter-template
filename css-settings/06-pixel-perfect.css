@@ -3,7 +3,7 @@ html {
   --min-width: 1440px;
 
   min-width: var(--min-width);
-  background: url(../assets/images/) 50% 0 no-repeat;
+  background: url(../assets/images/mockup.jpg) 50% 0 no-repeat;
 }
 
 body {

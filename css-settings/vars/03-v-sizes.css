@@ -1,15 +1,15 @@
 :root {
-  /* GAP */
-  --gap: 16px;
-  --gap-negative: -16px;
+  /* OUTER SPACING */
+  --gap: 20px;
+  --gap-negative: -20px;
 
-  /* MARGIN, PADDING */
+  /* INNER SPACING */
   --spacing-main: 10px 20px;
 
   --sp-nav-link: var(--spacing-main);
 
   /* CONTAINER */
-  --w-container: 1290px;
+  --w-container: 1240px;
   --w-container--small: 1130px;
 
   /* BORDER RADIUS */
