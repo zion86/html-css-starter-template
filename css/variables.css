@@ -1,7 +1,7 @@
 /* CSS VARIABLES */
-@import "vars/01-v-fonts.css";
-@import "vars/02-v-colors.css";
-@import "vars/03-v-sizes.css";
+@import "vars/fonts.css";
+@import "vars/colors.css";
+@import "vars/sizes.css";
 
 /*
   CSS variables naming

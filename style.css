@@ -1,27 +1,31 @@
-/* CSS SETTINGS */
-@import "css-settings/01-variables.css";
-@import "css-settings/02-custom-fonts.css";
-@import "css-settings/03-reset-css.css";
-/* @import "css-settings/04-sticky-footer.css"; */
-/* @import "css-settings/05-grid.css"; */
-/* @import "css-settings/06-pixel-perfect.css"; */
-/* @import "css-settings/07-font-size.css"; */
-/* @import "css-settings/08-outlines.css"; */
+/* CSS SETUP */
+@import "css/reset-css.css";
+@import "css/variables.css";
+@import "css/custom-fonts.css";
 
-/* COMPONENTS */
-@import "components/container/container.css";
-@import "components/page/page.css";
-@import "components/main-content/main-content.css";
-@import "components/nav/nav.css";
-@import "components/burger-menu/burger-menu.css";
-@import "components/header/header.css";
-@import "components/title/title.css";
-@import "components/footer/footer.css";
-@import "components/btn/btn.css";
-@import "components/social/social.css";
-@import "components/card/card.css";
-@import "components/logo-link/logo-link.css";
+/* CSS TOOLS */
+/* @import "css/tools/sticky-footer.css"; */
+/* @import "css/tools/pixel-perfect.css"; */
+/* @import "css/tools/grid.css"; */
+/* @import "css/tools/font-size.css"; */
+/* @import "css/tools/outlines.css"; */
 
-/* CSS LAYOUT */
-@import "css-layout/grid-list/grid-list.css";
-@import "css-layout/grid-cards/grid-cards.css";
+/* MAIN COMPONENTS */
+@import "components/mains/page/page.css";
+@import "components/mains/container/container.css";
+@import "components/mains/title/title.css";
+@import "components/mains/main-content/main-content.css";
+@import "components/mains/btn/btn.css";
+
+/* EXTRA COMPONENTS */
+@import "components/extra/header/header.css";
+@import "components/extra/logo-link/logo-link.css";
+@import "components/extra/footer/footer.css";
+@import "components/extra/nav/nav.css";
+@import "components/extra/burger-menu/burger-menu.css";
+@import "components/extra/social/social.css";
+@import "components/extra/card/card.css";
+
+/* LAYOUT COMPONENTS */
+@import "components/layout/grid-list/grid-list.css";
+@import "components/layout/grid-cards/grid-cards.css";
