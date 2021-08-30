@@ -3,24 +3,26 @@
 @import "css/variables.css";
 @import "css/custom-fonts.css";
 
+/* CSS HELPERS */
+@import "css/helpers/sticky-footer.css";
+
 /* CSS TOOLS */
-/* @import "css/tools/sticky-footer.css"; */
 /* @import "css/tools/pixel-perfect.css"; */
 /* @import "css/tools/grid.css"; */
 /* @import "css/tools/font-size.css"; */
 /* @import "css/tools/outlines.css"; */
 
 /* MAIN COMPONENTS */
-@import "components/mains/page/page.css";
-@import "components/mains/container/container.css";
-@import "components/mains/title/title.css";
-@import "components/mains/main-content/main-content.css";
-@import "components/mains/btn/btn.css";
+@import "components/main/page/page.css";
+@import "components/main/container/container.css";
+@import "components/main/header/header.css";
+@import "components/main/footer/footer.css";
+@import "components/main/title/title.css";
+@import "components/main/main-content/main-content.css";
+@import "components/main/btn/btn.css";
 
 /* EXTRA COMPONENTS */
-@import "components/extra/header/header.css";
 @import "components/extra/logo-link/logo-link.css";
-@import "components/extra/footer/footer.css";
 @import "components/extra/nav/nav.css";
 @import "components/extra/burger-menu/burger-menu.css";
 @import "components/extra/social/social.css";

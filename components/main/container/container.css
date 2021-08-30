@@ -6,19 +6,28 @@
   padding-right: var(--gap);
 }
 
-.container--small {
-  max-width: var(--w-container--small);
+.container--no-spacing {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.container__inner {
+.container--narrow {
+  max-width: var(--w-container--narrow);
+}
+
+.container--wide {
+  max-width: var(--w-container--wide);
+}
+
+.container__flex {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-@media (min-width: 600px) {
-  .container__inner {
+@media (min-width: 536px) {
+  .container__flex {
     flex-direction: row;
   }
 }

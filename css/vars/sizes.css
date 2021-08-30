@@ -10,7 +10,8 @@
 
   /* CONTAINER */
   --w-container: 1240px;
-  --w-container--small: 1130px;
+  --w-container--narrow: 1130px;
+  --w-container--wide: 1400px;
 
   /* BORDER RADIUS */
   --br-main: 10px;

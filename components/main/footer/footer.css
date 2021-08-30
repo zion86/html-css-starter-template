@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: darkcyan; 
+}
+
+/*
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 536px) {
+    .footer__inner {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+*/
