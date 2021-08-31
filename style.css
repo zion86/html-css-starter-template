@@ -16,14 +16,14 @@
 @import "components/main/page/page.css";
 @import "components/main/container/container.css";
 @import "components/main/header/header.css";
-@import "components/main/footer/footer.css";
+@import "components/main/nav/nav.css";
+@import "components/main/logo-link/logo-link.css";
 @import "components/main/title/title.css";
 @import "components/main/main-content/main-content.css";
 @import "components/main/btn/btn.css";
+@import "components/main/footer/footer.css";
 
 /* EXTRA COMPONENTS */
-@import "components/extra/logo-link/logo-link.css";
-@import "components/extra/nav/nav.css";
 @import "components/extra/burger-menu/burger-menu.css";
 @import "components/extra/social/social.css";
 @import "components/extra/card/card.css";
@@ -31,3 +31,6 @@
 /* LAYOUT COMPONENTS */
 @import "components/layout/grid-list/grid-list.css";
 @import "components/layout/grid-cards/grid-cards.css";
+
+/* CSS MEDIA QUERIES */
+@import "css/media-queries.css";
