@@ -1,8 +1,9 @@
 ## html-css-starter-template
 
-Simple template for quick coding.
+Simple template for quick coding. Flexible architecture using component approach.
 
 - HTML5, semantic, svg sprites
+- favicon icon
 - customs fonts
 - reset CSS, CSS components, CSS variables, BEM
 - responsive web design
