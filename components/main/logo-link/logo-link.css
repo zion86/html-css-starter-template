@@ -9,16 +9,3 @@
 .logo-link__ico {
   
 }
-
-.visually-hidden:not(:focus):not(:active) {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-  border: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-}

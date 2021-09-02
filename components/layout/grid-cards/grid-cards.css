@@ -22,13 +22,11 @@
   width: calc(100% / var(--columns) - var(--gap));
 }
 
-
 @media (min-width: 536px) {
   .grid-cards__cell {
     --columns: 2;
   }
 }
-
 
 @media (min-width: 768px) {
   .grid-cards__cell {

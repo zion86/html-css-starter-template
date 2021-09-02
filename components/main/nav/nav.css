@@ -19,8 +19,10 @@
   border-radius: var(--br-link);
 }
 
-@media (min-width: 536px) {
-  .nav__list {
-    flex-direction: row;
+/*
+  @media (min-width: 536px) {
+    .nav__list {
+      flex-direction: row;
+    }
   }
-}
+*/
