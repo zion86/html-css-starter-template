@@ -1,2 +1,2 @@
 @import "media/media-tablet.css" (min-width: 536px);
-@import "media/media-desktop.css";
+@import "media/media-desktop.css" (min-width: 992px);
