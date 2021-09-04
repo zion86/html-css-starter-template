@@ -12,16 +12,16 @@
 /* @import "css/tools/font-size.css"; */
 /* @import "css/tools/outlines.css"; */
 
-/* MAIN COMPONENTS */
-@import "components/main/page/page.css";
-@import "components/main/container/container.css";
-@import "components/main/header/header.css";
-@import "components/main/nav/nav.css";
-@import "components/main/logo-link/logo-link.css";
-@import "components/main/title/title.css";
-@import "components/main/main-content/main-content.css";
-@import "components/main/btn/btn.css";
-@import "components/main/footer/footer.css";
+/* COMMON COMPONENTS */
+@import "components/common/page/page.css";
+@import "components/common/container/container.css";
+@import "components/common/header/header.css";
+@import "components/common/nav/nav.css";
+@import "components/common/logo-link/logo-link.css";
+@import "components/common/title/title.css";
+@import "components/common/main-content/main-content.css";
+@import "components/common/btn/btn.css";
+@import "components/common/footer/footer.css";
 
 /* EXTRA COMPONENTS */
 @import "components/extra/burger-menu/burger-menu.css";
