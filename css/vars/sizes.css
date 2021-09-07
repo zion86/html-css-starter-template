@@ -4,9 +4,10 @@
   --gap-negative: -20px;
 
   /* INNER SPACING */
-  --spacing-main: 10px 20px;
+  --spacing-main: 10px;
+  --spacing-big: 20px;
 
-  --sp-nav-link: var(--spacing-main);
+  --sp-nav-link: var(--spacing-main) var(--spacing-big);
 
   /* CONTAINER */
   --w-container: calc( var(--gap) * 2 + 1200px );

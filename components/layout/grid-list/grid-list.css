@@ -1,17 +1,26 @@
 .grid-list {
-  
-}
-
-.grid-list__item:not(:last-child) {
-  /* --gap: 20px; */
-
-  margin-right: 0;
-  margin-bottom: var(--gap);
+  display: inline-grid;
+  gap: var(--gap);
+  justify-items: center;
 }
 
 @media (min-width: 536px) {
-  .grid-list__item:not(:last-child) {
-    margin-right: var(--gap);
-    margin-bottom: 0;
+  .grid-list {
+    grid-auto-flow: column;
   }
 }
+
+
+/* FOR FLEXBOX APPROACH
+  .grid-list__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: var(--gap);
+  }
+
+  @media (min-width: 536px) {
+    .grid-list__item:not(:last-child) {
+      margin-right: var(--gap);
+      margin-bottom: 0;
+    }
+  }
+*/

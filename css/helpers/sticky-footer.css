@@ -5,10 +5,22 @@ body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
 }
 
-main {
-  flex: 1 0;
-}
+/* FOR FLEXBOX APPROACH
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0;
+  }
+*/
