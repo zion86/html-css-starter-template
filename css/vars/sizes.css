@@ -9,9 +9,9 @@
   --sp-nav-link: var(--spacing-main);
 
   /* CONTAINER */
-  --w-container: 1240px;
-  --w-container--narrow: 1130px;
-  --w-container--wide: 1400px;
+  --w-container: calc( var(--gap) * 2 + 1200px );
+  --w-container--narrow: calc( var(--gap) * 2 + 1100px );
+  --w-container--wide: calc( var(--gap) * 2 + 1400px );
 
   /* BORDER RADIUS */
   --br-main: 10px;
