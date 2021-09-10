@@ -1,11 +1,10 @@
 /* PIXEL PERFECT */
 html {
-  --min-width: 1440px;
-
-  min-width: var(--min-width);
-  background: url(../assets/images/mockup.jpg) 50% 0 no-repeat;
+  min-width: var(--pixel-perfect-width);
+  background: url(../../assets/images/mockup.jpg) 50% 0 no-repeat;
 }
 
 body {
-  opacity: 0.5;
+  opacity: 0.45;
+  filter: invert(100%);
 }

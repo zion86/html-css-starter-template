@@ -4,9 +4,9 @@
   --c-red-secondary: tomato;
   --c-grey-primary: #434343;
 
-  --c-page-text-primary: var(--c-grey-basic);
-  --c-page-bg-primary: var(--c-white-basic);
-  --c-page-bg-secondary: var(--c-red-basic);
+  --c-page-text-primary: var(--c-grey-primary);
+  --c-page-bg-primary: var(--c-white-primary);
+  --c-page-bg-secondary: var(--c-red-primary);
 
   --c-title: var(--c-red-primary);
 

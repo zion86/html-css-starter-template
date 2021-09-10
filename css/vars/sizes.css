@@ -4,10 +4,10 @@
   --gap-negative: -20px;
 
   /* INNER SPACING */
-  --spacing-main: 10px;
-  --spacing-big: 20px;
+  --sp-basic: 10px;
+  --sp-big: 20px;
 
-  --sp-nav-link: var(--spacing-main) var(--spacing-big);
+  --sp-nav-link: var(--sp-basic) var(--sp-big);
 
   /* CONTAINER */
   --w-container: calc( var(--gap) * 2 + 1200px );
@@ -15,12 +15,14 @@
   --w-container--wide: calc( var(--gap) * 2 + 1400px );
 
   /* BORDER RADIUS */
-  --br-main: 10px;
+  --br-basic: 10px;
   --br-big: 20px;
   --br-small: 5px;
 
   --br-border: var(--br-small);
-  --br-frame: var(--br-small);
   --br-btn: var(--br-btn);
   --br-link: var(--br-big);
+
+  /* PIXEL PERFECT MOCKUP WIDTH */
+  /* --pixel-perfect-width: 1440px; */
 }

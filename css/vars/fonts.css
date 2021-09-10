@@ -5,8 +5,8 @@
 
   --fsz-primary: 18px;
   --fwt-primary: 400;
-  --lh-primary: 1.5;
-  --lh-secondary: 1.3;
+  --flh-primary: 1.5;
+  --flh-secondary: 1.3;
 
   --f-page-text-primary: var(--ff-primary);
   --f-page-text-secondary: var(--ff-secondary);
@@ -14,5 +14,5 @@
   --f-page-text-weight: var(--fwt-primary);
   --f-page-text-line-height: var(--flh-primary);
 
-  --f-title-line-height: var(--lh-secondary);
+  --f-title-line-height: var(--flh-secondary);
 }

@@ -11,5 +11,5 @@
   width: 100%;
   height: 3px;
   background-color: var(--c-page-text-primary);
-  border-radius: var(--br-main);
+  border-radius: var(--br-basic);
 }
