@@ -4,14 +4,14 @@
   /* --ff-tertiary: ""; */
 
   --fsz-primary: 18px;
-  --fwt-primary: 400;
+  --fwg-primary: 400;
   --flh-primary: 1.5;
   --flh-secondary: 1.3;
 
   --f-page-text-primary: var(--ff-primary);
   --f-page-text-secondary: var(--ff-secondary);
   --f-page-text-size: var(--fsz-primary);
-  --f-page-text-weight: var(--fwt-primary);
+  --f-page-text-weight: var(--fwg-primary);
   --f-page-text-line-height: var(--flh-primary);
 
   --f-title-line-height: var(--flh-secondary);
