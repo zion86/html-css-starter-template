@@ -1,7 +1,7 @@
 /* CSS SETUP */
 @import "css/reset-css.css";
 @import "css/variables.css";
-@import "css/custom-fonts.css";
+@import "assets/fonts/custom-fonts.css";
 
 /* CSS HELPERS */
 @import "css/helpers/sticky-footer.css";
